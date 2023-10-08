@@ -151,7 +151,7 @@ a:focus {
   padding: 188px 0;
   text-align: center;
   margin-bottom: 120px;
-  background-color:  var(--NAVY-BLUE);
+  background-color: var(--NAVY-BLUE);
 }
 .hero .button {
   color: var(--WHITE);
@@ -200,40 +200,81 @@ a:focus {
 .our-team-content {
   padding: 32px 0;
 }
-
 /* end of Our team section */
 
+/* portfolio.html */
 .portfolio-btn {
-  font-family: "Roboto", sans-serif;
+  padding: 96px 0px 72px 0px;
+}
+.btn-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.portfolio-btn-item {
+  font-family: "roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  background-color: var(--CLOUD);
   color: var(--IRIS);
   border-radius: 4px;
-  border: none;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   padding: 12px 24px;
-  justify-content: center;
 }
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+
+.portfolio-btn-item.active {
+  line-height: 1.5;
+  color: var(--WHITE);
+  background: var(--OCEAN, #404bbf);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-btn-item:hover,
+.portfolio-btn-item:focus {
   background-color: var(--OCEAN);
   color: var(--WHITE);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+/* Portfolio image section */
+
+.portfolio-img-section {
+  padding-bottom: 120px;
 }
 
-/* sections  */
+.img-list {
 
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 
-/* end of sections  */
+.img-list-item {
+  display: inline-block;
+  border: 1px solid var(--CORNFLOWER);
+  background-color: var(--WHITE);
+}
+
+.img-content {
+  padding: 32px 16px;
+}
+
+/* Portfolio image section */
+
+/* end of portfolio.html */
 
 /* footer */
 .footer {
   color: var(--CLOUD);
   line-height: 1.5;
   letter-spacing: 0.32px;
-  background-color:  var(--NAVY-BLUE);
-  padding-top: 101.5px
+  background-color: var(--NAVY-BLUE);
+  padding-top: 101.5px;
 }
 .footer-sect {
   padding-left: 156px;
