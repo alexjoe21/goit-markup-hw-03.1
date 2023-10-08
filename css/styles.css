@@ -1,0 +1,142 @@
+:root {
+  --IRIS: #4d5ae5;
+  --CLOUD: #f4f4fd;
+  --WHITE: #fff;
+  --SLATE: #434455;
+  --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --OCEAN: #404bbf;
+}
+
+/* body */
+body {
+  font-family: "roboto", sans serif;
+  color: var(--NAVY-BLUE);
+}
+/*end of body */
+
+/*Hero section */
+.logo {
+  text-decoration: none;
+  font-family: "raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.31;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: var(--IRIS);
+}
+
+nav .logo {
+  color: var(--NAVY-BLUE);
+}
+
+.hdr a {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.hdr .contact {
+  font-weight: 400;
+  padding-top: 0%;
+  color: var(--SLATE);
+}
+.hdr a:hover,
+.hdr a:focus {
+  color: var(--IRIS);
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+.list h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+.list p {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--SLATE);
+}
+
+.hero .button {
+  background-color: var(--IRIS);
+  border: none;
+  border-radius: 4px;
+  color: var(--WHITE);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+}
+.hero .button:hover,
+.hero .button:focus {
+  color: var(--NAVY-BLUE);
+}
+.portfolio-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  color: var(--IRIS);
+  border-radius: 4px;
+  border: none;
+  padding: 12px 24px;
+  justify-content: center;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--OCEAN);
+  color: var(--WHITE);
+}
+
+/* end of  Hero section */
+
+/* sections  */
+.navy-bg {
+  background-color: var(--NAVY-BLUE);
+}
+.hero h1 {
+  color: var(--WHITE);
+  text-transform: uppercase;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+/* end of sections  */
+
+/* footer */
+.footer {
+  color: var(--CLOUD);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.footer .logo {
+  color: var(--CLOUD);
+}
+.footer .logo:hover,
+.footer .logo:focus {
+  color: var(--IRIS);
+}
+/* end of footer */
